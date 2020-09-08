@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f5f7fa;
+    padding-left: 20;
+    padding-right: 20;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Montserrat;
+}
+
+.wrapper {
+    background: #ffffff;
+    display: flex;
+    max-width: 1210px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/*
+.sidebar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+} */
+
+
+
+.sidebar {
+    width: 370px;
+    background: linear-gradient(-45deg, #04142c, #087e74, #592a80, #2a1b4e);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    color: #fff;
+    padding: 60px 0;
+}
+@keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+} }  
+
+.about-me-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 100px;
+    padding-bottom: 110px;
+
+}
+
+.contacts-container {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}   
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;  
+    color: #848a93; 
+     /*color: rgb(73, 67, 67); */
+
+}
+
+.contacts-link-mail {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #848a93;
+    /*color: rgb(73, 67, 67); */
+}
+
+
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+.tech-skills-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+
+.tech-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.tech-skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+    color: #ff6b08;
+    letter-spacing: 0.42px;
+}
+
+.tech-skills-text {
+    color: #d8dadd; 
+}
+
+.soft-skills-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;  
+}
+
+.soft-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.soft-skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+    color: #ff6b08;
+    letter-spacing: 0.42px;
+}
+
+.soft-skills-text {
+    color: #d8dadd; 
+}
+
+
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.info-conteiner {
+    margin-bottom: 65px;
+}
+
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.projects-link {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.tech-name {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;  
+}
+
+.dots {
+    color: #bebebe;
+    font-weight: 100;
+}
+
+.projects-item {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.projects-container {
+    margin-bottom: 55px;
+}
+
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.profession-container {
+    margin-bottom: 50px;
+}
+
+.profession-company {
+    color: #ff781e;
+}
+
+.profession-time {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.profession-divider {
+    color: #000;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.profession-duties {
+    margin-top: 14px;
+    margin-bottom: 30px;
+    margin-left: 17px;
+}
+
+.profession-duties-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.step-education {
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.image {
+    width:370px;
+    height:492.17px;
+    overflow: hidden;
+}
+
+img{
+    width:370px;
+    height:492.17px;
+  }
+
+.transform{
+    transition: all 1.5s ease-out;
+ }
+ .transform:hover{
+    transform: scale(1.07);
+ }
+
+ 
+a:hover {
+    color: #ff6b08; /* Цвет текста */
+ }
+
+
+
+ 
+  
+  
+  
+  /* Let's style the wrapper in such away that, 
+  it should always be at the center of the browser */
+  .botton {
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 15px;
+    
+    
+  }
+  
+  /* Style the Un-order list by setting its list-style to none */
+  .botton ul {
+    list-style: none;
+  }
+  
+  /* Style the list items inside the UL list, by setting its width, height and line-height 
+    and float them to left and set its border and border-radius.
+   */
+  .botton ul li {
+    width: 50px;
+    height: 50px;
+    line-height: 15px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #D8E2DC;
+    float: left;
+    transition: all 0.7s ease;
+  }
+  
+  /* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+  .botton ul li .fa {
+    color: #d8dadd; 
+    ;
+    margin-top: 7px;
+    transition: all 0.5s ease;
+  }
+  
+  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+    to icons for glowing effect and use transition property for smooth transition effect. */
+  /*facebook*/
+  .botton ul li:hover.facebook {
+    border: 2px solid #3b5998;
+    color: #d8dadd; 
+    box-shadow: 0 0 15px ;
+    transition: all 0.5s ease;
+  }
+  
+  .botton ul li:hover .fa-facebook {
+    color: #d8dadd; 
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+  }
+  
+
+  
+  /* instagram */
+  .botton ul li:hover.instagram {
+    border: 2px solid #ac6294;
+    box-shadow: 0 0 15px #d8dadd;
+    transition: all 0.5s ease;
+  }
+  
+  .botton ul li:hover .fa-instagram {
+    color: #d8dadd; 
+    text-shadow: 0 0 5px #f0e8ed;
+    transition: all 0.5s ease;
+  }
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+
+
+
